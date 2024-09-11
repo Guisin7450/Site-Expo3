@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&display=swap');
+
+
+::selection {
+    color: #00b7ff;
+  }
+
+.wizard-card {
+    margin: 65px;
+    padding: 10px;
+    border: 5px solid #00ccff;
+    border-radius: 8px;
+    background-color: #000000;
+    color: white;
+    -webkit-box-shadow:0px 0px 26px 2px rgba(46,206,255,0.8);
+    -moz-box-shadow: 0px 0px 26px 2px rgba(46,206,255,0.8);
+    box-shadow: 0px 0px 26px 2px rgba(46,206,255,0.8);
+}
+.wizard-card h3 {
+    margin: 0;
+}
+
+@keyframes blink {
+    0% { background-color: #000000; }
+    50% { background-color: #010030; }
+    100% { background-color: #000000; }
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    animation: blink 1s infinite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .content {
+    z-index: 1;
+    color: white;
+  }
+
+  h1{
+    color: #00ccff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    transition: color 1s;
+    font-weight: 400;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #2ab1ff7c;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-box-shadow:0px 0px 213px 0px rgba(46,130,255,0.9);
+    -moz-box-shadow: 0px 0px 213px 0px rgba(46,130,255,0.9);
+    box-shadow: 0px 0px 213px 0px rgba(46,130,255,0.9);
+  }
+
+  ul {
+    margin-left: 275px;
+  }
